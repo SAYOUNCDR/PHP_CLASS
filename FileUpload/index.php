@@ -8,9 +8,9 @@
 </head>
 
 <body>
-    <h2>Uoload a File</h2>
+    <h2>Upload a File</h2>
     <form action="./upload.php" method="POST" enctype="multipart/form-data">
-        <input type="file" name="fileTOUpload" id="" required>
+        <input type="file" name="fileToUpload" id="" required>
         <button type="submit" name="submit">Upload</button>
     </form>
     <hr>
