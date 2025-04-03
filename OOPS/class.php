@@ -31,8 +31,8 @@ class BankAccount
 
     public function getBalance()
     {
-        echo "Account Number: " . $this->accountNumber . "<br>";
-        echo "Current Balance: " . $this->balance . "<br>";
+        echo "Account Number: " . $this->accountNumber;
+        echo "Current Balance: " . $this->balance;
     }
 }
 
